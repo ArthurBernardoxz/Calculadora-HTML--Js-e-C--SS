@@ -5,18 +5,24 @@ html{
 	font-family: 'Orbitron', sans-serif;
 }
 
+h1{
+	text-shadow: 0.1em 0.1em 0.2em rgb(4, 170, 247);
+}
+
 #Calculadora {
     background-color: rgba(255, 255, 255, 0.918);
     width: 480px;
     height: 450px;
     margin-left: 40%;
-    margin-top: 14%;
+    margin-top: 13%;
 	padding-top: 5px;
 	padding-bottom: 15px;
-    border-radius: 38px;
+    border-radius: 20px;
+	box-shadow: 10px 10px 5px black;
 }
 
 #resultado {
+	box-shadow: inset 1px 1px 1.8px 1.8px black;
 	font-family: 'Orbitron', sans-serif;
     margin:8px auto;
 	width: 78.2%;
@@ -28,6 +34,7 @@ html{
 	padding-bottom: 34px;
     margin-left: 47px;
 	background-color:#fff;
+	text-shadow: 0.1em 0.1em 0.2em rgb(4, 170, 247);
 }
 li {
     width: 90px;
@@ -40,7 +47,7 @@ li {
 	margin: 0px -3px 5px 8px;
 	line-height: 30px;
 	text-align: center;
-	box-shadow: 0px 3px 1px 0px #444651; 
+	box-shadow: 0px 3px 4px 0px #444651; 
 	list-style: none;
 }
 

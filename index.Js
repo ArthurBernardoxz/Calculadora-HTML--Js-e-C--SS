@@ -34,7 +34,10 @@ let CalcularEl = document.querySelector("#Botao_Calcular");
 CalcularEl.addEventListener('click', RealizarCalculo);
 
 function RealizarCalculo() {
-    if(telaEl){
-        telaEl.value = eval(telaEl.value);
+    if(telaEl.value == ""){
+        telaEl.value = "";
     }
+    else{
+        telaEl.value = eval(telaEl.value);
+    }  
 }
