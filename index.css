@@ -7,6 +7,7 @@ html{
 
 h1{
 	text-shadow: 0.1em 0.1em 0.2em rgb(4, 170, 247);
+	text-align: center;
 }
 
 #Calculadora {
@@ -56,9 +57,6 @@ li:hover{
 }
 li:active{
     box-shadow: 0px 1px 1px 0px #444651;
-}
-h1 {
-    text-align: center;
 }
 
 #Botao_Calcular {
